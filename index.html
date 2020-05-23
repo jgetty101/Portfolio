@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jordan Getty</title>
+        <meta name="description" content="Jordan's Personal Website/Digital Resume">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Parallax Scrolling">
+        <meta name="author" content="Jordan Getty">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+<body>
+
+    <!--<nav class="navbar navbar-light" style="background-color: green;">
+        <a class="navbar-brand" href="#">
+            <h1 class="navbarName">Jordan Getty</h1>
+        </a>
+    </nav>-->
+
+    <div class="topContainer2">
+        <h1 class="headingName">Jordan Getty</h1>
+        <div class="wrapper">
+            <!--<div class="word Skills">Skills</div>-->
+            <a href="#skills" class="word Skills" input type="button" onClick="document.getElementById('skills').scrollIntoView();">Skills</a>
+            <!--<div class="word Hobbies">Hobbies</div>-->
+            <a href="#hobbies" class="word Hobbies" input type="button" onClick="document.getElementById('hobbies').scrollIntoView();">Hobbies</a>
+            <!--<div class="word About">About</div>-->
+            <a href="#about" class="word About" input type="button" onClick="document.getElementById('about').scrollIntoView();">About</a>
+            <div class="word Projects">Projects</div>
+            <!--<div class="word Resume">Resume</div>-->
+            <a class="word Resume" href="JordanGetty_Resume copy.pdf" download>Resume</a>
+        </div>
+    </div>
+
+    <!--   **********************************************************************************************************************   -->
+
+    <!--<div class="topnav">
+        <a href="#about" class="word" input type="button" onClick="document.getElementById('about').scrollIntoView();">About</a>
+        <a href="#work" input type="button" onClick="document.getElementById('workXP').scrollIntoView();">WorkXP</a>
+        <a href="#skills" input type="button" onClick="document.getElementById('skills').scrollIntoView();">Skills</a>
+        <a href="#hobbies" input type="button" onClick="document.getElementById('hobbies').scrollIntoView();">Hobbies</a>
+        <a href="#contact" input type="button" onClick="document.getElementById('contact').scrollIntoView();">Contact</a>
+        <a href="JordanGetty_Resume copy.pdf" download>Resume</a>
+    </div> -->
+
+    <!--<div class="topContainer">
+        <div class="ptext">
+            <span class="block">Jordan Getty</span>
+        </div>
+    </div>-->
+
+    <section id="about" class="sectionLight">
+        <img class="pfp" src="images/jordanCropped copy.png" alt="picture of me">
+        <h2>Hello</h2>
+        <p>
+            I am a computer science student at Washington State University.
+        </p>
+
+        <p><em><strong>Currently seeking a Software Engineering Internship for Summer 2020</strong></em></p>
+    </section>
+
+    <div id="workXP" class="workContainer">
+        <div class="ptext">
+            <span class="block trans">Work Experience</span>
+        </div>
+    </div>
+
+    <section class="sectionDark">
+        <img class="wsuLogo" src="images/wsuLogo.png" alt="wsuLogo">
+        <!--<h2>Work Experience</h2>-->
+
+        <table class="workXPTable" cellspacing="3px">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Position</th>
+                    <th>Dates</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Crimson Service Desk</strong></td>
+                    <td>Pullman, WA</td>
+                    <td><strong><em>Technical Engineering Assistant II</em></strong></td>
+                    <td>Jan 2019 - Present</td>
+                </tr>
+                <tr>
+                    <td><strong>Washington State University</strong></td>
+                    <td>Pullman, WA</td>
+                    <td><strong><em>Teacher's Assistant</em></strong></td>
+                    <td>Aug 2018 - Present</td>
+                </tr>
+                <tr>
+                    <td><strong>Curbd Parking</strong></td>
+                    <td>Los Angeles, CA</td>
+                    <td><strong><em>Software Engineering Intern</em></strong></td>
+                    <td>July 2019 - August 2019</td>
+                </tr>
+                <tr>
+                    <td><strong>Hyperloop Transport Technologies</strong></td>
+                    <td>Culver City, CA</td>
+                    <td><strong><em>Operations Associate</em></strong></td>
+                    <td>Feb 2017 - July 2019</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <div id="skills" class="skillsContainer">
+        <div class="ptext">
+            <span class="block trans">SKILLS</span>
+        </div>
+    </div>
+
+    <section class="sectionDark">
+        <div class="webDevSkills">
+            <img class="webDesignPic" src="images/webDesignPic.png" alt="web design icon">
+            <h2 class="webH2">Design and Development</h2>
+            <p class="webP">
+                insert text
+            </p>
+        </div>
+        <div class="programmingSkills">
+            <img class="programmingPic" src="images/terminal.png" alt="terminal icon">
+            <h2 class="programmingH2">Programming</h2>
+            <p class="programmingP">
+                insert text
+            </p>
+        </div>
+        <div class="leadershipSkills">
+            <img class="leadershipPic" src="images/leadership.png" alt="leadership icon">
+            <h2 class="leadershipH2">Leadership / Collaboration</h2>
+            <p class="leadershipP">
+                insert text
+            </p>
+        </div>
+
+    </section>
+
+
+    <div id="hobbies" class="bottomContainer">
+        <div class="ptext">
+            <span class="block trans">HOBBIES</span>
+        </div>
+    </div>
+
+    <section class="sectionDark">
+        <div class="gamingHobby">
+            <img class="keyboardPic" src="images/keyboard.png" alt="keyboard">
+            <h2>Gaming</h2>
+            <p>
+                Insert text
+            </p>
+        </div>
+        <!--<div class="basketballHobby">
+            <img class="basketballPic" src="images/basketball.png" alt="basketball">
+            <h2>Sports</h2>
+        </div> -->
+        <div class="mediaHobby">
+            <img class="telePic" src="images/tele.png" alt="television">
+            <h2>Film and Media</h2>
+            <p>
+                Insert text
+            </p>
+        </div>
+    </section>
+
+    <div id="contact" class="topContainer">
+        <div class="ptext">
+            <span class="btnblock"><a class="btn" href="mailto:jgetty101@gmail.com">CONTACT ME</a></span>
+        </div>
+    </div>
+
+    <section class="sectionDark">
+        <p>
+            <a class="linkedIn" href="https://www.linkedin.com/in/jordan-getty-58b663155/"><img class="linkedInBtn" src="images/linkedInImage.png" alt="linkedIn"></a>
+            <a class="github" href="https://github.com/jgetty101"><img class="githubBtn" src="images/githubIcon.png" alt="github"></a>
+    </section>
+
+    <script type="text/javascript" src="../rotatingTextTest/js/test.js"></script>
+</body>
+</html>
