@@ -1,0 +1,483 @@
+body, html {
+	height: 100%;
+	margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    padding-bottom: 50px;
+	display: grid;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Skills{
+    /*font-family: 'Fredoka One', cursive;*/
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    /*transform: rotate(-20deg);*/
+    /*grid-column: 2/-1;*/
+    font-size: 70px;
+    display: inline-block;
+}
+
+.Hobbies {
+    /*font-family: 'Fredoka One', cursive;*/
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    /*transform: rotate(-10deg);*/
+    font-size: 70px;
+    display: inline-block;
+}
+
+.Experience{
+    /*font-family: 'Fredoka One', cursive;*/
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    /*transform: rotate(20deg);*/
+    /*grid-column: 1/3;*/
+    font-size: 70px;
+    display: inline-block;
+}
+
+.contactMe{
+        /*font-family: 'Fredoka One', cursive;*/
+        font-family: 'Rubik Mono One', sans-serif;
+        color: white;
+        /*transform: rotate(20deg);*/
+        /*grid-column: 1/3;*/
+        font-size: 70px;
+        display: inline-block;
+}
+
+.Projects {
+    /*font-family: 'Fredoka One', cursive;*/
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    /*transform: rotate(10deg);*/
+    font-size: 70px;
+    display: inline-block;
+}
+
+.Resume{
+    /*font-family: 'Fredoka One', cursive;*/
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    /*transform: rotate(-10deg);*/
+    /*grid-column: 2/3;*/
+    font-size: 70px;
+    display: inline-block;
+}
+
+.leftLinks{
+    float:left;
+    width:50%;
+}
+
+.rightLinks{
+    width:50%;
+}
+
+.word {
+	/*font-size: 3em;*/
+	margin: auto auto;
+}
+
+.word .up 
+{
+	display: inline-block;
+	transform: translate3d(0px, 0px, 0px) 
+	rotate(0deg);
+	transition: all 0.5s ease-in-out;
+}
+
+.word .down 
+{
+	display: inline-block;
+	transform: translate3d(0px, 0px, 0px) 
+	rotate(0deg);
+	transition: all 0.5s ease-in-out;
+}
+
+.word:hover .up 
+{
+	transform: translate3d(0px, -8px, 0px) 
+	rotate(12deg);
+    /*color: #058b05;*/
+    color: #d62b70;
+}
+
+.word:hover .down {
+	transform: translate3d(0px, 8px, 0px) 
+	rotate(-12deg);
+    /*color: #058b05;*/
+    color: #c70039;
+}
+
+.topContainer2{
+    height: 100%;
+    position: relative;
+    /*background-color: #666;*/
+    background-color: #367db5;
+    padding-bottom: 80px;
+}
+
+.navbarName{
+    display: inline;
+    font-family: 'Fredoka One';
+    padding-left: 20px;
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.headingName {
+    font-family: 'Fredoka One';
+    padding-left: 20px;
+    position: relative;
+    padding-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+/*   **********************************************************************************************************************   */
+
+.topContainer,
+.skillsContainer,
+.workContainer,
+.bottomContainer,
+.contact-container {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.buttons
+{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.topContainer {
+    background-image: url('../images/shootingStar.png');
+    min-height: 100%;
+}
+
+.skillsContainer {
+    /*background-image: url('../images/kameKanji\ copy.png');*/
+    background-color: #c70039;
+    min-height: 400px;
+}
+
+.workContainer {
+    /*background-image: url('../images/gokuFalling.gif');*/
+    background-color: #ff5733;
+    min-height: 400px;
+}
+
+.bottomContainer {
+    /*background-image: url('../images/computer.png');*/
+    background-color: #900c3f;
+    min-height: 400px;
+}
+
+.pfp {
+    width: 15%;
+    padding-bottom: 20px;
+}
+
+.skillsPic {
+    width: 13%;
+}
+
+.programmingPic {
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-left: 10px;
+}
+
+.programmingSkills {
+    width: 50%;
+    margin: 100px auto;
+    text-align: right;
+}
+
+.leadershipPic {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.leadershipSkills {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.webDesignPic {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.webDevSkills {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.wsuLogo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.keyboardPic {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.gamingHobby {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.basketballPic {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+.basketballHobby {
+    width: 50%;
+    margin: 100px auto;
+    text-align: right;
+}
+
+.telePic {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.mediaHobby {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.sectionLight {
+    background-color: #f4f4f4;
+    color: #666;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.sectionDark {
+    background-color: #282e34;
+    color: #ddd;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .block {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+.ptext .block.trans {
+    background-color: transparent;
+}
+
+@media(max-width:568px) {
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+        background-attachment: scroll;
+    }
+}
+
+
+/*Add a black background color to the top navigation */
+
+/*.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+
+
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}*/
+
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    z-index:1;
+  }
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+#navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.botLinks {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    background-color: white;
+}
+
+.botLinks:hover {
+    opacity: 0.7;
+}
+
+.linkedInBtn {
+    width: 55px;
+    height: 55px;
+    color: black;
+}
+
+.githubBtn {
+    padding-left: 10px;
+    width: 65px;
+    height: 55px;
+    color: black;
+}
+
+.emailBtn{
+    padding-left: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+}
+
+.btnblock {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+.btnblock:hover {
+    border: solid #F4EEFF 1px;
+    background: #F4EEFF;
+    background-image: -webkit-linear-gradient(top, #F4EEFF, #DCD6F7);
+    background-image: -moz-linear-gradient(top, #F4EEFF, #DCD6F7);
+    background-image: -ms-linear-gradient(top, #F4EEFF, #DCD6F7);
+    background-image: -o-linear-gradient(top, #F4EEFF, #DCD6F7);
+    background-image: linear-gradient(to bottom, #F4EEFF, #DCD6F7);
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    text-decoration: none;
+}
+
+.workTable {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
