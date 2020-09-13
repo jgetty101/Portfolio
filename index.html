@@ -22,34 +22,54 @@
     </head>
 <body>
 
+    <!--<nav class="navbar navbar-light" style="background-color: green;">
+        <a class="navbar-brand" href="#">
+            <h1 class="navbarName">Jordan Getty</h1>
+        </a>
+    </nav>-->
 
     <div id="home" class="topContainer2">
         <h1 class="headingName">Jordan Getty</h1>
         <div class="wrapper">
-            <div class="leftLinks">
-                <a href="skills.html" class="word Skills" input type="button" onClick="document.getElementById('skills').scrollIntoView();">Skills</a>
-                <a href="hobbies.html" class="word Hobbies" input type="button">Hobbies</a>
-                <a href="experience.html" class="word Experience" input type="button">Experience</a>
-            </div>
-            <div class="rightLinks">
-                <div class="word Projects">Projects</div>
-                <a class="word Resume" href="Resume.pdf" download>Resume</a>
-                <a class="word contactMe" href="contactMe.html">Contact</a>
-            </div>
+            <!--<div class="word Skills">Skills</div>-->
+            <a href="#skills" class="word Skills" input type="button" onClick="document.getElementById('skills').scrollIntoView();">Skills</a>
+            <!--<div class="word Hobbies">Hobbies</div>-->
+            <a href="#hobbies" class="word Hobbies" input type="button" onClick="document.getElementById('hobbies').scrollIntoView();">Hobbies</a>
+            <!--<div class="word About">About</div>-->
+            <a href="#about" class="word About" input type="button" onClick="document.getElementById('about').scrollIntoView();">About</a>
+            <div class="word Projects">Projects</div>
+            <!--<div class="word Resume">Resume</div>-->
+            <a class="word Resume" href="JordanGetty_Resume copy.pdf" download>Resume</a>
         </div>
-        <section id="about" class="sectionLight">
-            <img class="pfp" src="images/circle-cropped.png" alt="picture of me">
-            <h2>Hello</h2>
-            <p>
-                I am a computer science student at Washington State University.
-            </p>
-    
-            <p><em><strong>Currently seeking a Software Engineering Internship for Summer 2021</strong></em></p>
-        </section>
     </div>
 
     <!--   **********************************************************************************************************************   -->
 
+    <div id="navbar"class="topnav">
+        <a class="active" href="#home" input type="button" onClick="document.getElementById('about').scrollIntoView();">Home</a>
+        <a href="#about" input type="button" onClick="document.getElementById('about').scrollIntoView();">About</a>
+        <a href="#work" input type="button" onClick="document.getElementById('workXP').scrollIntoView();">WorkXP</a>
+        <a href="#skills" input type="button" onClick="document.getElementById('skills').scrollIntoView();">Skills</a>
+        <a href="#hobbies" input type="button" onClick="document.getElementById('hobbies').scrollIntoView();">Hobbies</a>
+        <a href="#contact" input type="button" onClick="document.getElementById('contact').scrollIntoView();">Contact</a>
+        <a href="JordanGetty_Resume copy.pdf" download>Resume</a>
+    </div>
+
+    <!--<div class="topContainer">
+        <div class="ptext">
+            <span class="block">Jordan Getty</span>
+        </div>
+    </div>-->
+
+    <section id="about" class="sectionLight">
+        <img class="pfp" src="images/jordanCropped copy.png" alt="picture of me">
+        <h2>Hello</h2>
+        <p>
+            I am a computer science student at Washington State University.
+        </p>
+
+        <p><em><strong>Currently seeking a Software Engineering Internship for Summer 2020</strong></em></p>
+    </section>
 
     <div id="workXP" class="workContainer">
         <div class="ptext">
@@ -57,12 +77,79 @@
         </div>
     </div>
 
+    <section class="sectionDark">
+        <img class="wsuLogo" src="images/wsuLogo.png" alt="wsuLogo">
+        <!--<h2>Work Experience</h2>-->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Position</th>
+                    <th>Dates</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Crimson Service Desk</strong></td>
+                    <td>Pullman, WA</td>
+                    <td><strong><em>Technical Engineering Assistant II</em></strong></td>
+                    <td>Jan 2019 - Present</td>
+                </tr>
+                <tr>
+                    <td><strong>Washington State University</strong></td>
+                    <td>Pullman, WA</td>
+                    <td><strong><em>Teacher's Assistant</em></strong></td>
+                    <td>Aug 2018 - Present</td>
+                </tr>
+                <tr>
+                    <td><strong>Curbd Parking</strong></td>
+                    <td>Los Angeles, CA</td>
+                    <td><strong><em>Software Engineering Intern</em></strong></td>
+                    <td>July 2019 - August 2019</td>
+                </tr>
+                <tr>
+                    <td><strong>Hyperloop Transport Technologies</strong></td>
+                    <td>Culver City, CA</td>
+                    <td><strong><em>Operations Associate</em></strong></td>
+                    <td>Feb 2017 - July 2019</td>
+                </tr>
+            </tbody>
+          </table>
+
+    </section>
 
     <div id="skills" class="skillsContainer">
         <div class="ptext">
             <span class="block trans">SKILLS</span>
         </div>
     </div>
+
+    <section class="sectionDark">
+        <div class="webDevSkills">
+            <img class="webDesignPic" src="images/webDesignPic.png" alt="web design icon">
+            <h2 class="webH2">Design and Development</h2>
+            <p class="webP">
+                From a design perspective, I built this beautiful site utilizing HTML, CSS, JavaScipt, and Bootstrap. I am currently developing a game using C# and Unity.
+            </p>
+        </div>
+        <div class="programmingSkills">
+            <img class="programmingPic" src="images/terminal.png" alt="terminal icon">
+            <h2 class="programmingH2">Programming</h2>
+            <p class="programmingP">
+                My main OOP language is C++, but I familiar with C, JS, HTML, CSS, and C#.
+            </p>
+        </div>
+        <div class="leadershipSkills">
+            <img class="leadershipPic" src="images/leadership.png" alt="leadership icon">
+            <h2 class="leadershipH2">Leadership / Collaboration</h2>
+            <p class="leadershipP">
+                I see myself as someone who can step up in a group and guide everyone to a successful goal, taking a hands-on approach. I work well within groups and I like to "whiteboard" out solutions as a team.
+            </p>
+        </div>
+
+    </section>
 
 
     <div id="hobbies" class="bottomContainer">
@@ -71,7 +158,54 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="../Portfolio/js/test.js"></script>
-    <script type="text/javascript" src="../Portfolio/js/stickyNavbar.js"></script>
+    <section class="sectionDark">
+        <div class="gamingHobby">
+            <img class="keyboardPic" src="images/keyboard.png" alt="keyboard">
+            <h2>Gaming</h2>
+            <p>
+                My love of gaming helps me find an intersection between being productive and having fun. Making mods/scripts for games like Minecraft and helped me find a passion for game development.
+            </p>
+        </div>
+        <!--<div class="basketballHobby">
+            <img class="basketballPic" src="images/basketball.png" alt="basketball">
+            <h2>Sports</h2>
+        </div> -->
+        <div class="mediaHobby">
+            <img class="telePic" src="images/tele.png" alt="television">
+            <h2>Film and Media</h2>
+            <p>
+                I like B-rated horror movies that are so bad they are good, and 80's movies like <em>The Breakfast Club</em> and <em>The Goonies</em>.
+            </p>
+        </div>
+    </section>
+
+    <div id="contact" class="topContainer">
+        <div class="ptext">
+            <h1 class="contactMeH">Contact Me</h1>
+        </div>
+        <!--<div class="ptext">
+            <span class="btnblock"><a class="btn" href="mailto:jgetty101@gmail.com">Contact Me</a></span>
+        </div>-->
+        <div class="buttons">
+            <a class="linkedIn" href="https://www.linkedin.com/in/jordan-getty-58b663155/"><img class="linkedInBtn" src="images/linkedInImage.png" alt="linkedIn"></a>
+            <a class="github" href="https://github.com/jgetty101"><img class="githubBtn" src="images/githubIcon.png" alt="github"></a>
+            <a class="email" href="mailto:jgetty101@gmail.com"><img class="emailBtn" src="images/gmail.png" alt="email"></a>
+        </div>
+    </div>
+
+    <section class="sectionDark">
+        <p>
+            <a class="credits">Icon Credits:</a>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx">xnimrodx</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </p>
+    </section>
+
+    <script type="text/javascript" src="js/test.js"></script>
+    <script type="text/javascript" src="js/stickyNavbar.js"></script>
 </body>
 </html>
